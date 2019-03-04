@@ -7,7 +7,7 @@ title: Reinforcement Learning
 
 <div id="archives">
 {% for category in site.categories %}
-  {% if category == 'reinforcement-learning' %}
+  hello {{category}}
   <div class="archive-group">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
@@ -21,6 +21,5 @@ title: Reinforcement Learning
     </article>
     {% endfor %}
   </div>
-  {% endif %}
 {% endfor %}
 </div>
