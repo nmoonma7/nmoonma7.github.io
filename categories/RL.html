@@ -4,11 +4,9 @@ permalink: /RL/
 title: Reinforcement Learning
 ---
 
-
+atet
 {% assign category = site.categories[0] %}
-teast{{site.categories.reinforcement-learning}}
-test{{site.categories[0]}}
-test{{site.categories}}
+{% capture category_name %}{{ category | first }}{% endcapture %}
 
 <ul>
   {% for post in site.categories[category_name] %}
