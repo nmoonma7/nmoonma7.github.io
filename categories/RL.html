@@ -17,8 +17,8 @@ title: Reinforcement Learning
     {% for post in site.categories[category_name] %}
     <article class="archive-item">
       <h2><li class="sub-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>&nbsp&nbsp&nbsp&nbsp
-        <span class="date" style="float:right">{{ post.date | date: "%B %-d, %Y"  }}</span>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+        <span class="date" style="float:right;font-size: 10pt">{{ post.date | date: "%B %-d, %Y"  }}</span>
         </li></h2>
     </article>
     {% endfor %}
