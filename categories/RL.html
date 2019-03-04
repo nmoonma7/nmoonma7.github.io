@@ -6,15 +6,15 @@ title: Reinforcement Learning
 
 
 <div id="archives">
-  {{site.categories[0]}}
+{% for category in site.categories %}
   <div class="archive-group">
-    {% capture category_name %}{{ site.categories[0]}}{% endcapture %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
     <p></p>
     
     <h2 class="category-head">{{ category_name }}</h2>
     <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[0] %}
+    {% for post in site.categories[category_name] %}
     <article class="archive-item">
       <h4><li class="sub-title">
         <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
@@ -23,4 +23,5 @@ title: Reinforcement Learning
     </article>
     {% endfor %}
   </div>
+{% endfor %}
 </div>
