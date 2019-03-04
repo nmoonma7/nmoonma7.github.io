@@ -7,9 +7,9 @@ title: Reinforcement Learning
 <h1> reinforcement learning</h1>
 
 <ul>
-  {% for categories in site.categories.reinforcement-learning %}
+  {% for post in site.categories.reinforcement-learning %}
   <li>
-    <a href="{ site.baseurl }}{{ post.url }}">{{post.title}}</a">{{categories.title}}</a>
+    <a href="{ site.baseurl }}{{ post.url }}">{{post.title}}</a">{{post.title}}</a>
     <p>{{categories.meta}}<p>
   </li>
   {% endfor %}
