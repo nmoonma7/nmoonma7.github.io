@@ -4,7 +4,7 @@ title: algorithm with python - palindrome (1)
 categories: algorithm
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2019-03-05
-tags: [algorithm,palindrome]
+tags: [algorithm, palindrome]
 image:
   path: /images/abstract-3.jpg
   feature: abstract-3.jpg
