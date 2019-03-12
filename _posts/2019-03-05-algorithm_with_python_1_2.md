@@ -4,7 +4,7 @@ title: algorithm with python 2
 categories: algorithm
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2019-03-05
-tags: [sample post]
+tags: [algorithm]
 image:
   path: /images/abstract-3.jpg
   feature: abstract-3.jpg
