@@ -14,14 +14,6 @@ image:
 
 ### ~~
 
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
-
 {% highlight scss %}
 .highlight {
   margin: 0;
