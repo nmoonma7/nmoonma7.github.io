@@ -14,16 +14,6 @@ image:
 
 ### ~~
 
-{% highlight scss %}
-.highlight {
-  margin: 0;
-  padding: 1em;
-  font-family: $monospace;
-  font-size: $type-size-7;
-  line-height: 1.8;
-}
-{% endhighlight %}
-
 ```python
 def is_palindrome(word):
     for i in range(len(word)//2):
