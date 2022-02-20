@@ -8,12 +8,9 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
-
+    금융권에서 AI개발 중입니다
+  # Please check my [CV](/assets/CV.pdf) to find out for more about me !
+  
   # This photo will be used in the about section
   picture:
     path:            https://placehold.it/128x128
@@ -29,7 +26,7 @@ author1:
 #   twitter:         <username>
     github:           nmooonma7
     email:            nmooonma7@gmail.com
-    # rss:             https://<url>/feed.xml
+    rss:              https://nmoonma7@github.io
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
