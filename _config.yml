@@ -20,30 +20,29 @@ url:                   https://nmoonma7.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 AI IN FINANCE
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  금융, AI와 관련된 자료를 정리한 블로그
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               금융, AI와 관련된 자료를 정리한 블로그
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [AI, machine learning, finance]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                JungHyun Lee
+  email:               nmoonma7@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
