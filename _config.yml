@@ -50,6 +50,17 @@ author:
 menu:
   - title:             Projects
     url:               /projects/
+  
+  - title:             Study Notes
+    url:               /notes/
+    submenu:
+     - title:          ML
+       url:            /ml/
+     - title:          FINANCE
+       url:            /finance/
+     - title:          ODDS & ENDS
+       url:            /odds_ends/
+
   - title:             About
     url:               /about/
   
