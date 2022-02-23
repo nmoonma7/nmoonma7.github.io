@@ -8,9 +8,9 @@ description: >
   공부한 것들을 정리한 공간입니다
 ---
 
-# Subcat
+# Study Notes
 
-## 카테고리
+## Categories
 
 * [ML]{:.heading.flip-title} --- 머신러닝 관련 자료들
 * [Finance]{:.heading.flip-title} --- 금융관련 자료들
