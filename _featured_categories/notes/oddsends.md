@@ -2,7 +2,7 @@
 layout: list
 category: notes
 bigtitle: ODDS & ENDS
-slug: odds_ends
+slug: oddsends
 description: >
   odds 테스트1
 
