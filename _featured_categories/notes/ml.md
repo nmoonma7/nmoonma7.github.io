@@ -2,7 +2,7 @@
 layout: list
 category: notes
 bigtitle: ML
-slug: Machine Learning
+slug: ml
 description: >
   ml 테스트1
 

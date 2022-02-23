@@ -18,4 +18,4 @@ description: >
 
 [ML]: /ml/
 [Finance]: /finance/
-[ODDS&ENDS]: /odds_ends/
+[ODDS&ENDS]: /odds-ends/
