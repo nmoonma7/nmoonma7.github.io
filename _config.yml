@@ -59,7 +59,7 @@ menu:
      - title:          FINANCE
        url:            /finance/
      - title:          ODDS & ENDS
-       url:            /oddsends/
+       url:            /odds_ends/
 
   - title:             About
     url:               /about/
