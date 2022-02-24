@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: plain
 bigtitle: Study Notes
 slug: notes
 menu: true
