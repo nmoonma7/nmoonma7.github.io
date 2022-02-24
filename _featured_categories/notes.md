@@ -16,8 +16,6 @@ description: >
 * [Finance]{:.heading.flip-title} --- 금융관련 자료들
 * [ODDS&ENDS]{:.heading.flip-title} --- 다양한 주제 자료들
 
-<!--
 [ML]: /ml/
 [Finance]: /finance/
 [ODDS&ENDS]: /odds-ends/
--->
