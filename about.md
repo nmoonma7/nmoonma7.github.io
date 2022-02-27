@@ -10,13 +10,14 @@ hide_description: true
 # About
 
 <!--author-->
-***
-<center>
+
+
+---
 <span style="font-size:170%;font-weight:bold"> 이정현
 </span>
-</center>
-<center>Data Scientist</center>
-<center>KB Kookmin Bank</center>
+> KB Kookmin Bank  
+> Data Scientist
+
 
 ## Personal Data
 ---
