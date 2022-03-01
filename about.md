@@ -2,8 +2,8 @@
 layout: about
 image: /assets/img/profile/me.jpg
 description: >
-  현재 금융권에서 AI 개발중입니다
-hide_description: true
+
+hide_description: False
 
 ---
 
