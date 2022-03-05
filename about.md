@@ -11,14 +11,6 @@ hide_description: False
 
 <!--author-->
 
-
----
-<span style="font-size:170%;font-weight:bold"> 이정현
-</span>
-> KB Kookmin Bank  
-> Data Scientist
-
-
 ## Personal Data
 ---
 > Github : [https://github.com/nmoonma7](https://github.com/nmoonma7) 
