@@ -13,9 +13,11 @@ description: >
 ## Categories
 
 * [ML]{:.heading.flip-title} --- 머신러닝 관련 자료들
+* [CS]{:.heading.flip-title} --- 컴퓨터 과학 관련 자료들
 * [Finance]{:.heading.flip-title} --- 금융관련 자료들
 * [ODDS&ENDS]{:.heading.flip-title} --- 다양한 주제 자료들
 
 [ML]: /ml/
+[CS]: /cs/
 [Finance]: /finance/
 [ODDS&ENDS]: /odds-ends/

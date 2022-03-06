@@ -1,13 +1,13 @@
 ---
 layout: list
 category: notes
-bigtitle: ODDS & ENDS
-slug: odds-ends
+bigtitle: computer science
+slug: cs
 description: >
-  odds 테스트1
+  cs 테스트1
 
 related_posts:
     - 
 list: true
-order: 4
+order: 2
 ---
