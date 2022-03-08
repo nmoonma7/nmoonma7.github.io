@@ -13,7 +13,8 @@ hide_description: False
 
 ## Personal Data
 ---
-> Github : [https://github.com/nmoonma7](https://github.com/nmoonma7) 
+> github : [https://github.com/nmoonma7](https://github.com/nmoonma7)  
+> email : nmoonma7@gmail.com
 
 
 ## Research Interest
@@ -27,6 +28,6 @@ hide_description: False
 
 ## Skills and Certification
 ---
--Language : Python, C/C++  
--FrameWork: Pytorch, Tensorflow(Keras)  
--Certification : CCNA
+>Language : Python, C/C++  
+FrameWork: Pytorch, Tensorflow(Keras)  
+Certification : CCNA
