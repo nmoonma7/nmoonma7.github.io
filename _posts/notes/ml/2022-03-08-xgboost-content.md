@@ -14,7 +14,10 @@ Regression
 Loss function  
 $$\displaystyle\sum_{i=1}^{n}L(y_i , p_i) = \displaystyle\sum_{i=1}^{n}\frac{1}{2}(y_i -p_i)^2 $$
 
-$y_i$는 관측값, $p_i$는 예측값, $n$은 관측 갯수  
+Lorem ipsum $$ f(x) = x^2 $$.
+
+$$(y_i)$$
+는 관측값, $p_i$는 예측값, $n$은 관측 갯수  
 
 Classification  
 $\displaystyle\sum_{i=1}^{n}L(y_i , p_i) = \displaystyle\sum_{i=1}^{n}-[y_ilog(p_i)+(1-y_i)log(1-p_i)] $ 
