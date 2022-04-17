@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Tensorflow - Tutorial
+title: TensorFlow - TensorFlow 2 quickstart for experts
 description: >
-  tensorflow 과정을 해석 
+  TensorFlow 공식 가이드에 대한 해석. TensorFlow 2 quickstart for experts  
 
 sitemap: false
 hide_last_modified: true
@@ -16,4 +16,18 @@ categories:
 * toc
 {:toc}
 
-tensorflow
+
+### Import TensorFlow into your program:
+~~~python
+import tensorflow as tf
+print("TensorFlow version:", tf.__version__)
+
+from tensorflow.keras.layers import Dense, Flatten, Conv2D
+from tensorflow.keras import Model
+~~~
+
+### Load and prepare the MNIST dataset.
+~~~python
+mnist = tf.keras.datasets.mnist
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+~~~
