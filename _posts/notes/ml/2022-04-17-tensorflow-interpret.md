@@ -111,17 +111,19 @@ optimizer = tf.keras.optimizers.Adam()
 ~~~
 
 categorical cross entropy vs SparseCategoricalCrossentropy  
-- If your $Y_{i}$'s are one-hot encoded, use categorical_crossentropy. 
+- If your $Y_{i}$ 's are one-hot encoded, use categorical_crossentropy. 
 Examples (for a 3-class classification): [1,0,0] , [0,1,0], [0,0,1]  
 - But if your Yi's are integers, use sparse_categorical_crossentropy. 
 Examples for above 3-class classification problem: [1] , [2], [3]
 
 Sparse Categorical Crossentropy의 sparse는 어떤 의미일까?
-이름이 왜 그런지는 정확히 모른다. 단순히 integer label을 sparse(one_hot)형태로 바꿔야 된다는 의미로 추측.
+이름이 왜 그런지는 정확히 모른다. 단순히 integer label을 sparse(one_hot)형태로 바꿔서 계산해야된다는 의미 일까?
 
 from_logits 는 뭘까?
 - from_logits=True means the input to crossEntropy layer is normal tensor/logits,   
 - from_logits=False, means the input is a probability and usually you should have some softmax activation in your last layer.
+
+통계적 의미의 logit과 딥러닝에서 사용되는 logit의 의미는 다른다고 한다. [from_logit에 관한 설명](https://stackoverflow.com/questions/41455101/what-is-the-meaning-of-the-word-logits-in-tensorflow/52111173#52111173)
 
 cross entropy는 뭔가
 - sigma P(x) log(Q(x))
