@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Tensorflow] Tutorial
+title: Tensorflow - Tutorial
 description: >
   tensorflow 과정을 해석 
 
