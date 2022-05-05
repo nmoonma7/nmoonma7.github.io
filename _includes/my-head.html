@@ -71,12 +71,12 @@ Left here for reference, feel free to delete.
 </script>
 
 <!-- tipuesearch -->
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Search blog posts..">
-<ul id="results-container"></ul>
-
-<!-- or without installing anything -->
-<script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
+<div class="top-menu">
+  <a href="{{ '/search' | prepend: site.baseurl }}" class="nav-btn top-menu"> 
+    <i class="fas fa-fw {% if menu_index == 1 %}fa-search-dollar{% else %}fa-search{% endif %}"></i>
+    <span>Search</span>
+  </a>
+</div>
 
 
 
