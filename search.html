@@ -1,6 +1,6 @@
-<!-- ---
+---
 title: Search
-description: "Search this site"
+description: "이 키워드에 관해 작성한 글들을 보여드려요"
 layout: page
 permalink: /search/
 tipue_search_active: true
@@ -16,58 +16,11 @@ exclude_from_search: true
 <div id="tipue_search_content"></div>
 
 <script>
-  $(document).ready(function() {
-    $('#tipue_search_input').tipuesearch({
-      'wholeWords' : false,
-      'showTime' : false,
-      'minimumLength' : 1
-    });
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch({
+    'wholeWords' : false,
+    'showTime'   : false,
+    'minimumLength' : 1
   });
-  </script> -->
-  ---
-  title: Search
-  description: "Search this site"
-  layout: page
-  permalink: /search/
-  ---
-
-  <!doctype html>
-  <html lang="en">
-  
-    {% include head.html %}
-  
-    <body>
-  
-      {% include header.html %}
-  
-      <div id="search-demo-container">
-        <input type="search" id="search-input" placeholder="search...">
-        <ul id="results-container"></ul>
-      </div>
-  
-      <div class="page-content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </div>
-  
-      {% include footer.html %}
-  
-      <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
-  
-      <script>
-        window.simpleJekyllSearch = new SimpleJekyllSearch({
-          searchInput: document.getElementById('search-input'),
-          resultsContainer: document.getElementById('results-container'),
-          json: '{{ site.baseurl }}/search.json',
-          searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
-          noResultsText: 'No results found',
-          limit: 10,
-          fuzzy: false,
-          exclude: ['Welcome']
-        })
-      </script>
-  
-    </body>
-  
-  </html>
+});
+</script>

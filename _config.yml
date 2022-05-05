@@ -434,10 +434,10 @@ jekyll_compose:
           url: https://example.com
 
 tipue_search:
-  include:
-    pages: true
-    collections: []
-  exclude:
-    files: []
-    categories: []
-    tags: []
+     include:
+         pages: false
+         collections: []
+     exclude:
+         files: [search.html, index.html, tags.html]
+         categories: []
+         tags: []
