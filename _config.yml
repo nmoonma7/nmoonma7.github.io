@@ -435,7 +435,7 @@ jekyll_compose:
 
 tipue_search:
   include:
-    pages: true
+    pages: false
     collections: []
   exclude:
     files: []
